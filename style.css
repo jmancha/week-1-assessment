@@ -16,15 +16,34 @@ header {
 	top: -190px;
 	position: relative;
 	padding: 50px;
+	text-align: right;
 }
 
 .innerContanier {
-	margin-right: 
+	float:right 70px;
+
+}
+
+#phoneimage {
+	float: left;
+	position: relative;
+}
+
+.container1 {
+	width: 400px;
+	float: right;
+	background-image: url("images/frame.png");	
+	background-repeat: no-repeat;
+	margin-right: 70px;
+
+
 }
 
 h1 {
 	text-align: center;
-	font-size: .5px;
+	font-size: 24px;
+	font-style: lighter;
+	color: black;
 }
 
 h2 {
@@ -33,15 +52,28 @@ h2 {
 }
 p {
     text-align: center;
-    font-size: 1.5em;
+    position: relative;
+    font: 24px;
+    font-weight: lighter;
 }
-
-/*.images {
-	background: url(images/badge-iphone.png);
-	background: url(images/badge-android.png);
-}*/
+button {
+	background-image: url("images/home.png");
+}
 
 li {
-	display: inline;
+	display: center;
 	align-items: left;
 }
+
+ul {
+	clear: both;
+	margin: 0 auto;
+	text-align: center;
+ 	}
+
+.images {
+	background: url(images/badge-iphone.png);
+	background: url(images/badge-android.png);
+}
+
+
