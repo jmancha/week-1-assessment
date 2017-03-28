@@ -35,15 +35,17 @@ header {
 	background-image: url("images/frame.png");	
 	background-repeat: no-repeat;
 	margin-right: 70px;
+	padding-left: 35px;
 
 
 }
 
 h1 {
-	text-align: center;
+	text-align: left;
 	font-size: 24px;
 	font-style: lighter;
-	color: black;
+	color: blue;
+	padding-right: 80px; 
 }
 
 h2 {
@@ -51,7 +53,7 @@ h2 {
     font-size: 1.5em;
 }
 p {
-    text-align: center;
+    text-align: left;
     position: relative;
     font: 24px;
     font-weight: lighter;
@@ -61,8 +63,14 @@ button {
 }
 
 li {
-	display: center;
-	align-items: left;
+	padding: 30px; 
+	display: inline-block;
+	float: left;
+}
+#li2 {
+	padding: 20px; 
+	list-style-type:circle;
+	float: center;
 }
 
 ul {
@@ -74,6 +82,7 @@ ul {
 .images {
 	background: url(images/badge-iphone.png);
 	background: url(images/badge-android.png);
+	text-align: left;
 }
 
 
